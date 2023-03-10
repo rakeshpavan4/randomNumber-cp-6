@@ -8,7 +8,8 @@ class RandomNumberGenerator extends Component {
   GenerateButton = () => {
     const randomNumber = Math.floor(Math.random() * 100)
 
-    this.setState(prevstate => ({count: prevstate.count + randomNumber}))
+     this.setState({count: randomNumber})
+
   }
 
   render() {
